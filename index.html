@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<title></title>
+  <style type="text/css">
+
+
+     #header-kiri ul li{
+      display: inline-block;
+      list-style: none;
+    }
+    #header-kiri h3{
+      margin: 0px;
+      padding: 0px;
+      margin-right: 50px;
+      float: left;  
+    }
+
+    .header-kanan a {
+      margin-top: 10px;
+    }
+
+    #form-register {
+      margin-bottom: 15px;
+    }
+
+    #form-control {
+      height : 35px;
+      padding: 6px 12px;
+      font-size: 14px;
+      color : black;
+      background-color: #fff;
+      background-image: none;
+      border : 1px solid;
+
+    }
+
+    .desktop {
+      
+      background-attachment: fixed;
+    }
+
+    //id .
+    //class #
+    
+
+
+
+  </style>
+</head>
+<body>
+<header>
+
+            <div class="container">
+                 <div id="header-kiri">
+                <h1>Voluneed</h1>
+                  <h3>Ubah niat baik jadi aksi baik hari ini!</h3>
+
+                  <ul class="nav navbar-nav">
+
+                    <li class="nav-item dropdown">
+                          <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Untuk Relawan<span class="caret"></span></a>
+                          </a>
+                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Cari Aktivitas</a><br>
+          <a class="dropdown-item" href="#">Cari Organisasi</a><br>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Panduan Relawan</a><br>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Untuk Organisasi<span class="caret"> </span></a>
+                          </a>
+                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Profil Relawan</a><br>
+          <a class="dropdown-item" href="#">Panduan Organisasi</a><br>
+        </div>
+      </li>
+                    <li>
+                    <a href="#" class="dropdown-toggle" style="margin-left:10px;">Tentang Voluneed<span class="caret"></span></a>
+                  </li>
+                  </ul>
+                   <ul class="nav navbar-nav navbar-right" style="margin-top:15px;">
+                    <div id="header-kanan">
+                    <a href="#" class="dropdown-toggle" style="margin-left:10px;">Masuk</span></a>
+                   </ul>
+                   <ul class="nav navbar-nav navbar-right" style="margin-top:15px;">
+                    <div id="header-kanan">
+                    <a href="#" class="dropdown-toggle" style="margin-left:10px;">Buat akun</span></a>
+                   </ul>
+
+              </div>
+          </div>
+          <div class="desktop">
+           <div id="carousel-example-generic" class=" carousel-home carousel slide" data-ride="carousel">
+ 
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="gambar_1.jpg" alt="..." style="width: 100%;">
+
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="gambar_2.jpg" alt="..." style="width: 100%;">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+         <div style="height: 100vh; z-index: 99; position: relative;width: 100%;background-color: rgba(0, 0, 0, 0.65);" class="container">
+          <div class="col-md-8 center desktop centerAlign no-padding">
+            <p style="text-align:left; font-size: 42px; margin-top:200px;" class="fg-white font-ubuntu no-margin">
+              Ubah
+              <b>Niat baik </b>
+              <br>
+              Jadi <b> aksi baik</b> hari ini
+            </p>
+          </div>
+          <div class="col-md-4 desktop indexRegisterBox indexRegisterBoxAlign no-padding">
+            <div class="col-md-12 padding-md">
+              <form role="form" name="userRegisterForm" novalidate="" class="">
+                <p style="font-size: 30px; margin-top:200px; text-align:center;" class="bold fg-white font-ubuntu no-margin center padding-bottom-xs">Buat Akun!</p>
+
+                <div class="col-md-12 no-padding no-margin">
+                  <div id="form-register">
+                    <div style="border-radius: 5px" class="input-group col-md-12 no-margin no-padding">
+                    <input type="text" name="name" placeholder="Nama Lengkap" class="form-control col-xs-12">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 no-padding no-margin">
+                  <div id="form-register">
+                    <div style="border-radius: 5px" class="input-group col-md-12 no-margin no-padding">
+                    <input type="text" name="name" placeholder="Email - e.g. farrel.bluejackets@binus.edu" class="form-control col-xs-12">
+                </div>
+          </div>
+        </div>
+          <div class="col-md-12 no-padding no-margin">
+                  <div id="form-register">
+                    <div style="border-radius: 5px" class="input-group col-md-12 no-margin no-padding">
+                    <input type="text" name="name" placeholder="Kota/Kabupaten" class="form-control col-xs-12">
+                </div>
+          </div>
+        </div>
+          <div class="col-md-12 no-padding no-margin">
+                  <div id="form-register">
+                    <div style="border-radius: 5px" class="input-group col-md-12 no-margin no-padding">
+                    <input type="password" name="name" placeholder="Password" class="form-control col-xs-12">
+                </div>
+          </div>
+        </div>
+        <div class="col-md-12 no-padding no-margin">
+                  <div id="form-register">
+                    <div style="border-radius: 5px" class="input-group col-md-12 no-margin no-padding">
+                    <button type="button" name="name" class="btn btn-success col-xs-12">Daftar!</button>
+                </div>
+          </div>
+        </div>
+      </form>
+    </div>
+        
+
+
+                 
+
+              <div id="body-menu" class="margin-top-md no-padding">
+                <nav id="main-nav" class="main-nav" role="navigation">
+
+
+                       
+
+               <div class="navbar-header">
+
+               </div>
+               <div id="navbar-collapse1" class="navbar-collapse collapse">
+
+               	<ul class="nav navbar-nav">
+               		
+               	</ul>
+               </div>
+
+        </div>
+    </header>
+
+
+    <!-- Menyisipkan JQuery dan Javascript Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"> </script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="bs4/js/bootstrap.min.js"></script>
+
+</body>
+</html>
